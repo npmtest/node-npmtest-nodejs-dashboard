@@ -1,4 +1,7 @@
-# test coverage for  [nodejs-dashboard (v0.4.1)](https://github.com/FormidableLabs/nodejs-dashboard#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-nodejs-dashboard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nodejs-dashboard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nodejs-dashboard.svg)](https://travis-ci.org/npmtest/node-npmtest-nodejs-dashboard)
+# npmtest-nodejs-dashboard
+
+#### test coverage for  [nodejs-dashboard (v0.4.1)](https://github.com/FormidableLabs/nodejs-dashboard#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-nodejs-dashboard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nodejs-dashboard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nodejs-dashboard.svg)](https://travis-ci.org/npmtest/node-npmtest-nodejs-dashboard)
+
 #### Telemetry dashboard for node.js apps from the terminal!
 
 [![NPM](https://nodei.co/npm/nodejs-dashboard.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/nodejs-dashboard)
