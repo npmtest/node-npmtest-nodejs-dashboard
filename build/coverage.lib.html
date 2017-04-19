@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for node-npmtest-nodejs-dashboard/node_modules/nodejs-dashboard/lib/dashboard-agent.js</title>
+    <title>Code coverage report for node-npmtest-nodejs-dashboard/node_modules/nodejs-dashboard/lib/providers/log-provider.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -194,23 +194,23 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-nodejs-dashboard">npmtest-nodejs-dashboard (v0.0.1)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-nodejs-dashboard/node_modules/nodejs-dashboard/lib/dashboard-agent.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-nodejs-dashboard/node_modules/nodejs-dashboard/lib/providers/log-provider.js</span></h1>
     <h2>
         
-        Statements: <span class="metric">44.68% <small>(21 / 47)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">35% <small>(7 / 20)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Branches: <span class="metric">9.52% <small>(2 / 21)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">0% <small>(0 / 4)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Functions: <span class="metric">22.22% <small>(2 / 9)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">0% <small>(0 / 6)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Lines: <span class="metric">44.68% <small>(21 / 47)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">35% <small>(7 / 20)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-nodejs-dashboard/node_modules/nodejs-dashboard/lib/</a> &#187; dashboard-agent.js</div>
+    <div class="path"><a href="../../../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-nodejs-dashboard/node_modules/nodejs-dashboard/lib/providers/</a> &#187; log-provider.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
@@ -254,157 +254,24 @@
 38
 39
 40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
-100
-101
-102
-103
-104
-105
-106
-107
-108
-109</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
+41</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
@@ -412,18 +279,15 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -432,117 +296,49 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">"use strict";
 &nbsp;
-var SocketIO = require("socket.io-client");
-var blocked = require("blocked");
-var pusage = require("pidusage");
-var os = require("os");
-var _ = require("lodash");
-var config = require("./config");
+var EventEmitter = require("events").EventEmitter;
 &nbsp;
-var dashboardAgent = function () {
+var LogProvider = <span class="fstat-no" title="function not covered" >function LogProvider(screen) {</span>
+<span class="cstat-no" title="statement not covered" >  EventEmitter.call(this);</span>
 &nbsp;
-  var options = {
-    port: process.env[config.PORT_KEY],
-    refreshInterval: process.env[config.REFRESH_INTERVAL_KEY],
-    blockedThreshold: process.env[config.BLOCKED_THRESHOLD_KEY]
-  };
+<span class="cstat-no" title="statement not covered" >  this._log = [];</span>
+<span class="cstat-no" title="statement not covered" >  this.limit = 10000;</span>
 &nbsp;
-  // check if the app was launched w/o the dashboard
-  // if so, don't start any of the monitoring
-  var enabled = options.port &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >options.refreshInterval </span>&amp;&amp; <span class="branch-2 cbranch-no" title="branch not covered" >options.blockedThreshold;</span>
-&nbsp;
-  var socket;
-&nbsp;
-  var metrics = {
-    eventLoop: {
-      delay: 0,
-      high: 0
-    },
-    mem: {
-      systemTotal: os.totalmem()
-    },
-    cpu: {
-      utilization: 0
-    }
-  };
-&nbsp;
-  var _delayed = <span class="fstat-no" title="function not covered" >function (delay) {</span>
-<span class="cstat-no" title="statement not covered" >    metrics.eventLoop.high = Math.max(metrics.eventLoop.high, delay);</span>
-<span class="cstat-no" title="statement not covered" >    metrics.eventLoop.delay = delay;</span>
-  };
-&nbsp;
-  var _getStats = <span class="fstat-no" title="function not covered" >function (cb) {</span>
-<span class="cstat-no" title="statement not covered" >    _.merge(metrics.mem, process.memoryUsage());</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    pusage.stat(process.pid, <span class="fstat-no" title="function not covered" >function (err, stat) {</span></span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >      if (err) {</span>
-<span class="cstat-no" title="statement not covered" >        return cb(err);</span>
-      }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >      metrics.cpu.utilization = stat.cpu;</span>
-<span class="cstat-no" title="statement not covered" >      return cb(null, metrics);</span>
-    });
-&nbsp;
-  };
-&nbsp;
-  var resetEventMetrics = <span class="fstat-no" title="function not covered" >function () {</span>
-<span class="cstat-no" title="statement not covered" >    metrics.eventLoop.delay = 0;</span>
-  };
-&nbsp;
-  var _emitStats = <span class="fstat-no" title="function not covered" >function () {</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    _getStats(<span class="fstat-no" title="function not covered" >function (err, newMetrics) {</span></span>
-<span class="cstat-no" title="statement not covered" >      if (err) {</span>
-<span class="cstat-no" title="statement not covered" >        console.error("Failed to load metrics: ", err); </span>//eslint-disable-line
-<span class="cstat-no" title="statement not covered" >        if (socket &amp;&amp; socket.connected) {</span>
-<span class="cstat-no" title="statement not covered" >          socket.emit("error", JSON.stringify(err));</span>
-        }
-      } else <span class="cstat-no" title="statement not covered" >if (socket &amp;&amp; socket.connected) {</span>
-<span class="cstat-no" title="statement not covered" >        socket.emit("metrics", JSON.stringify(newMetrics));</span>
-      }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >      resetEventMetrics();</span>
-    });
-&nbsp;
-  };
-&nbsp;
-  var startPump = function () {
-    <span class="missing-if-branch" title="if path not taken" >I</span>if (enabled) {
-<span class="cstat-no" title="statement not covered" >      socket = new SocketIO("http://localhost:" + options.port);</span>
-<span class="cstat-no" title="statement not covered" >      blocked(_delayed, { threshold: options.blockedThreshold });</span>
-<span class="cstat-no" title="statement not covered" >      options.intervalId = setInterval(_emitStats, options.refreshInterval);</span>
-    }
-  };
-&nbsp;
-  var destroy = <span class="fstat-no" title="function not covered" >function () {</span>
-<span class="cstat-no" title="statement not covered" >    if (socket) {</span>
-<span class="cstat-no" title="statement not covered" >      socket.close();</span>
-<span class="cstat-no" title="statement not covered" >      socket = null;</span>
-    }
-<span class="cstat-no" title="statement not covered" >    if (options.intervalId) {</span>
-<span class="cstat-no" title="statement not covered" >      clearInterval(options.intervalId);</span>
-<span class="cstat-no" title="statement not covered" >      options.intervalId = null;</span>
-    }
-  };
-&nbsp;
-  startPump();
-&nbsp;
-  return {
-    _delayed: _delayed,
-    _getStats: _getStats,
-    _emitStats: _emitStats,
-    destroy: destroy
-  };
+<span class="cstat-no" title="statement not covered" >  screen.on("stdout", this._onLog.bind(this, "stdout"));</span>
+<span class="cstat-no" title="statement not covered" >  screen.on("stderr", this._onLog.bind(this, "stderr"));</span>
 };
 &nbsp;
-module.exports = dashboardAgent;
+LogProvider.prototype = Object.create(EventEmitter.prototype);
+&nbsp;
+LogProvider.setLimit = <span class="fstat-no" title="function not covered" >function (limit) {</span>
+<span class="cstat-no" title="statement not covered" >  this.limit = Math.max(this.limit, limit);</span>
+};
+&nbsp;
+LogProvider.prototype._onLog = <span class="fstat-no" title="function not covered" >function (source, data) {</span>
+<span class="cstat-no" title="statement not covered" >  this._log.push([source, data]);</span>
+<span class="cstat-no" title="statement not covered" >  if (this._log.length &gt; this.limit) {</span>
+<span class="cstat-no" title="statement not covered" >    this._log = this._log.slice(this.limit - this._log.length);</span>
+  }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  this.emit(source, data);</span>
+};
+&nbsp;
+LogProvider.prototype.getLog = <span class="fstat-no" title="function not covered" >function (sources, limit) {</span>
+<span class="cstat-no" title="statement not covered" >  return this._log</span>
+    .filter(<span class="fstat-no" title="function not covered" >function (entry) {</span> <span class="cstat-no" title="statement not covered" >return sources.indexOf(entry[0]) !== -1; </span>})
+    .slice(0, limit || this.limit)
+    .map(<span class="fstat-no" title="function not covered" >function (entry) {</span> <span class="cstat-no" title="statement not covered" >return entry[1]; </span>})
+    .join("")
+    .replace(/\n$/, "");
+};
+&nbsp;
+module.exports = LogProvider;
 &nbsp;
 &nbsp;</pre></td></tr>
 </table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Mon Apr 17 2017 08:51:49 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Wed Apr 19 2017 05:49:23 GMT+0000 (UTC)</div>
 </div>
 </body>
 </html>
